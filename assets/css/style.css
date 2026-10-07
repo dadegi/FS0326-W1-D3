@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    background-color: grey;
+}
+
+.title {
+    background-image: url('../img/sfondo.jpg');
+}
+
+h1 {
+	color: hsl(216, 100%, 49%);
+	text-align: center;
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+.material-symbols-outlined {
+    font-size: 1.5rem;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.title h1:hover {
+    color: yellow;
+}
+
+input:focus {
+    border: 2px solid red;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+}
+
+table tr:nth-child(even) {
+    background-color: cyan;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+thead tr:first-child {
+    font-size: 1.5rem;
+}
