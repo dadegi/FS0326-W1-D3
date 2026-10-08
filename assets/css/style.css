@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@font-face {
+    font-family: 'miaFamily';
+    src: url('../fonts/downloadme.woff2') format('woff2'),
+         url('../fonts/downloadme.woff') format('woff');
+    font-display: swap;
+}
+
 html, body {
     font-family: "Roboto", sans-serif;
     background-color: grey;
@@ -22,6 +29,7 @@ h1 {
 
 .red {
     color: red;
+    font-family: 'miaFamily', Arial, Helvetica, sans-serif;
 }
 
 .green {
